@@ -1,12 +1,17 @@
 {
-  "name": "weflow-template",
+  "name": "project-vue",
   "version": "1.0.0",
-  "description": "",
+  "description": "weflow vue template",
   "main": "index.js",
   "scripts": {
+    "build": "weflow build vue",
+    "dev": "weflow dev vue",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "everlastlucas <everlastlucas@outlook.com>",
-  "license": "ISC"
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^2.6.12"
+  }
 }
